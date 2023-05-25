@@ -1,0 +1,748 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border:1px solid red; */
+
+}
+
+.main {
+  width: 100%;
+  height: 125vh;
+  border: 1px solid black;
+  background-image: url(./front-page-header.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.harder {
+  width: 100%;
+  height: 105px;
+  padding:10px 14%;
+  box-sizing: border-box;
+}
+.harder > img {
+float:left;
+}
+.harder:hover {
+  cursor: pointer;
+}
+.harder > ul > li {
+  display: inline-block;
+}
+.harder > ul {
+  float:right;
+  padding:20px 0;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 900;
+}
+.harder li {
+  margin-left: 30px;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.harder li:hover {
+  color: rgb(255, 222, 0);
+  cursor: pointer;
+}
+.main h1 {
+  font-size: 90px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ margin:auto;
+ margin-top: 220px;
+ text-align: center;
+  color: white;
+}
+.main span {
+  color: rgb(255, 222, 0);
+}
+.main > p {
+  width: 690px;
+  text-align: center;
+  line-height: 26px;
+  font-weight: 400;
+  margin-left: 26%;
+  color: white;
+}
+.main > button {
+  padding: 20px;
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-size: 18px;
+  color: white;
+  margin-top: 7vh;
+}
+.main button:hover {
+  cursor: pointer;
+}
+.main .btn {
+  background-color: transparent;
+  border: 3px solid white;
+  position: relative;
+  margin-left: 490px;
+  padding: 17px;
+}
+.main .btn2 {
+  background-color: rgb(255, 222, 0);
+  border: none;
+}
+.btn:hover {
+  transition: all 0.3s;
+}
+.btn2:hover {
+  background-color: rgb(106, 77, 138);
+  transition: all 0.3s;
+}
+
+/* <!-- --------------------About Section------ --> */
+
+.perant {
+  width: 100%;
+  height: 70vh;
+}
+.perant > h4 {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 80px;
+  opacity: 0.8;
+}
+.perant > p {
+  width: 1000px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 19%;
+  line-height: 26px;
+  padding-top: 50px;
+  opacity: 0.6;
+}
+.perant .line {
+  position: relative;
+  left: 150px;
+}
+.line {
+  width: 24%;
+  height: 2px;
+  background-color: silver;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.line1 {
+  width: 60%;
+  height: 3px;
+  background-color: rgb(241, 139, 109);
+}
+.line2 {
+  width: 82%;
+  height: 3px;
+  background-color: rgb(241, 210, 4);
+}
+.line3 {
+  width: 86%;
+  height: 3px;
+  background-color: rgb(106, 77, 138);
+}
+.line span {
+  font-size: 100px;
+  margin-left: 97%;
+  position: relative;
+  top: -84px;
+}
+.dot1 {
+  color: rgb(241, 139, 109);
+}
+.dot2 {
+  color: rgb(241, 210, 4);
+}
+.dot3 {
+  color: rgb(106, 77, 138);
+}
+.line h5 {
+  font-size: 16px;
+  margin-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.icon-A {
+  color: rgb(241, 139, 109);
+}
+.icon-A:before {
+  content: "\f031";
+  font-family: fontAwesome;
+  padding-right: 5px;
+}
+.icon-B {
+  color: rgb(241, 210, 4);
+}
+.icon-B:before {
+  content: "\f040";
+  font-family: fontAwesome;
+  padding-right: 5px;
+}
+.icon-C {
+  color: rgb(106, 77, 138);
+}
+.icon-C:before {
+  content: "\f121";
+  font-family: fontAwesome;
+  padding-right: 5px;
+}
+
+/* <!-- ---------------------------blue-section---- --> */
+/*  */
+
+.blue {
+  width: 100%;
+  height: 30vh;
+  background-image: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+}
+.blue h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 80px;
+  font-weight: bolder;
+}
+.blue p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+/* <!-- ----------------------pics-section----------------- --> */
+
+.pics {
+  height: 400px;
+  width: 24.8%;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(./front-page-project-1.jpg);
+}
+.p1 {
+  background-image: url(./front-page-project-2.jpg);
+  margin-left: -4px;
+}
+.p2 {
+  background-image: url(./front-page-project-3.jpg);
+  margin-left: -4px;
+}
+.p3 {
+  background-image: url(./front-page-project-4.jpg);
+  margin-left: -4px;
+  width: 25.6%;
+}
+.pics:hover {
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+/* <!-- ----------------------Testimonials--------------------------- --> */
+
+.willi {
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) !important;
+}
+.willi h1 {
+  text-align: center;
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 35px;
+}
+.slider1 {
+  position: relative;
+  width: 70%;
+  height: 70vh;
+  top: 30px;
+  left: 250px;
+  overflow: hidden;
+}
+.slider2 {
+  position: relative;
+  width: 400%;
+  transition-duration: 0.8s;
+}
+.top {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.slider1 > input {
+  display: none;
+}
+.top > img {
+  margin-left: 450px;
+  border-radius: 50%;
+}
+.para1 {
+  background-color: rgb(106, 77, 138);
+  height: 20vh;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+.para2 {
+  clip-path: polygon(100% 0, 0 0, 49% 100%);
+  width: 35px;
+  height: 20px;
+  background-color: rgb(106, 77, 138);
+  margin: auto;
+  margin-top: 30px;
+}
+.para1 > p {
+  width: 80%;
+  margin-left: 100px;
+  line-height: 26px;
+  padding-top: 30px;
+}
+.work {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 26%;
+  top: 460px;
+  border-radius: 50%;
+  z-index: 2;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.w1 {
+  left: 44%;
+}
+.w2 {
+  left: 47%;
+  background-color: #fff;
+}
+.w3 {
+  left: 50%;
+  background-color: #fff;
+}
+.w4 {
+  left: 53%;
+  background-color: #fff;
+}
+.put1:checked + label{
+  background-color: #f1d204;
+}
+.put2:checked + label{
+  background-color: #f1d204;
+}
+.put3:checked + label{
+  background-color: #f1d204;
+}
+.put4:checked + label{
+  background-color: #f1d204;
+}
+.put1:checked + label ~ .slider2 {
+  left: 0%;
+}
+.put2:checked + label ~ .slider2 {
+  left: -100%;
+}
+.put3:checked + label ~ .slider2 {
+  left: -200%;
+}
+.put4:checked + label ~ .slider2 {
+  left: -300%;
+}
+.top h2 {
+
+text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+/* <!-- -------------------------Services---------------------------- --> */
+
+.service {
+  width: 100%;
+  height: 60vh;
+text-align: center;
+}
+.service > h1 {
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.7;
+ text-align: center;
+}
+
+.service > p {
+  /* margin-left: -300px; */
+  padding-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.4;
+}
+.card {
+  width: 25%;
+  height: 30vh;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+.fa-solid {
+
+  font-size: 30px;
+}
+.fa-pencil,
+.web {
+  color: rgb(241, 139, 109);
+}
+.fa-code,
+.web2 {
+  color: rgb(241, 210, 4);
+}
+.fa-magnifying-glass,
+.web3 {
+  color: rgb(106, 77, 138);
+}
+.card > h1 {
+  font-size: 23px;
+  text-align: center;
+  padding-top: 10px;
+}
+.card > p {
+  line-height: 26px;
+  text-align: center;
+  padding-top: 15px;
+  opacity: 0.4;
+  font-size: 18px;
+
+  /* width: max-content;
+    height: max-content;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid red; */
+}
+
+/* <!-- --------------------------Latest News------------------- --> */
+
+.latest {
+  background-color: #222f36;
+  width: 100%;
+  height: 140vh;
+  text-align: center;
+  color: white;
+}
+.latest > h1 {
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.latest > p {
+  opacity: 0.6;
+  padding-bottom: 60px;
+}
+.latest > button {
+  padding: 10px;
+  width: 130px;
+  height: 40px;
+  background: #f1d204;
+  border-radius: 3px;
+  transition: all 0.3s;
+  border: none;
+}
+.latest button:before {
+  content: "\f138";
+  font-family: fontAwesome;
+  padding-right: 5px;
+  color: #f1d204;
+}
+.latest button:hover {
+  background-color: rgb(106, 77, 138);
+  cursor: pointer;
+}
+.box {
+  width: 24%;
+  height: 75vh;
+  display: inline-block;
+  margin-top: 70px;
+  vertical-align: top;
+  background-color: #fff;
+  color: black;
+  margin-left: 20px;
+}
+.box > img {
+  width: 100%;
+}
+.b1 {
+  height: 80vh;
+}
+.heading-one {
+  width: 230px;
+  font-size: 24px;
+  opacity: 0.8;
+  padding: 30px 0 0 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.heading-two {
+  width: 320px;
+  text-align: start;
+  font-size: 24px;
+  opacity: 0.8;
+  padding: 30px 0 0 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.heading-three {
+  font-size: 24px;
+  opacity: 0.8;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+.box h1:hover {
+  color: #f1d204;
+}
+.box > p {
+  line-height: 26px;
+  opacity: 0.6;
+  text-align: start;
+  width: 290px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+.box button {
+  margin-right: 240px;
+  border: none;
+  color: #f1d204;
+  background-color: #fff;
+}
+
+/* <!-- -------------------------coffee---------------- --> */
+
+.coffee {
+  width: 100%;
+  height: 20vh;
+  background-image: url(./front-page-counter.jpg);
+  background-attachment: fixed;
+}
+.coffee span {
+  margin-left: 20px;
+  font-size: 40px;
+}
+.coffee .num {
+  display: inline-block;
+  margin-left: 200px;
+  width: 300px;
+  margin-top: 35px;
+  color: white;
+  font-size: 25px;
+  border-right: 2px #fff;
+}
+
+/* <!-- ------------------team section----------- --> */
+
+.team {
+  width: 100%;
+  height: 65vh;
+  /* background-image: rgb(red, green, blue); */
+  background-image: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+
+}
+.team>h2{
+  padding-top: 50px;
+
+}
+.team h2, .team p {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.team > p {
+  opacity: 0.6;
+}
+.mark {
+  display: inline-block;
+  height: 35vh;
+  width: 30%;
+  margin-top: 100px;
+  vertical-align: top;
+}
+.image > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 150px;
+}
+.text {
+  width: 200px;
+  height: 30vh;
+  margin-left: 280px;
+  margin-top: -110px;
+}
+.text > h3 {
+  padding-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.text > h5 {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.text > p {
+  text-align: start;
+  opacity: 0.5;
+  padding-bottom: 10px;
+}
+
+.hd1 {
+  color: rgb(241, 139, 109);
+}
+.hd2 {
+  color: rgb(241, 210, 4);
+}
+.hd3 {
+  color: rgb(106, 77, 138);
+}
+.text .fa-brands {
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 5px;
+  color: rgb(241, 139, 109);
+  border-color: rgb(241, 139, 109);
+}
+
+/* <!-- -----------------------Contact us-------------------- --> */
+
+.Contact {
+  width: 100%;
+  height: 90vh;
+  /* background: #000; */
+}
+.Contact > h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.7;
+  padding-bottom: 50px;
+}
+.Address{
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  opacity: 0.6;
+}
+.Address h2{
+  border-right: 1px solid black;
+  width: 250px;
+  padding: 8px;
+  font-size: 18px;
+  color: rgb(241, 210, 4);
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  padding-left: 60px;
+  
+}
+
+.iconss{
+  margin-left:220px;
+}
+.iconss{
+  /* text-align: center; */
+}
+.Address p{
+  width: 200px;
+  display: inline-block;
+  margin-left: 30px;
+  padding-bottom: 80px;
+}
+.last{
+  width: 85%;
+  margin: auto;
+  margin-left: 170px;
+}
+.text-card{
+  display: inline-block;
+  width: 30%;
+  opacity: 0.6;
+}
+.text-card>input{
+  width: 90%;
+  height: 35px;
+  padding: 5px;
+}
+.answer{
+  width: 74.5%;
+  margin-left: 170px;
+  height: auto;
+  padding-top: 10px;
+  opacity: 0.6;
+}
+.answer>textarea{
+  height: 200px;
+  width: 100%;
+  padding: 5px;
+}
+.Contact button {
+  margin-top: 20px;
+  margin-left: 1155px;
+  padding: 15px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(241, 210, 4);
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* <!-- ------------------black-card-------------- --> */
+
+.black {
+  width: 100%;
+  height: 40vh;
+  background: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+.blacker {
+  width: 80%;
+  margin-left: 150px;
+}
+.black-card {
+  width: 20%;
+  height: 40vh;
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 36px;
+  vertical-align: top;
+  padding-top: 50px;
+}
+.black-card > h1 {
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+.black-card > ul > li {
+  list-style: none;
+  color: silver;
+  transition: all 0.5s;
+}
+.black li:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  padding-right: 15px;
+  color: silver;
+}
+.black-card li:hover{
+  color: rgb(106, 77, 138);
+
+}
+.black-footer {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  text-align: center;
+  padding-top: 30px;
+}
+.black-footer span {
+  opacity: 0.6;
+}
